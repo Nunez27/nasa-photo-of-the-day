@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
-// import {NasaUrl} from './index.js'
+// import {nasaUrl} from './index.js'
 import axios from 'axios'
 import Image from './Componets/Image'
+import Card from "./Componets/Card";
 
 function App() {
   const [nasaData, setNasaData] = useState([])
@@ -12,12 +13,13 @@ function App() {
       setNasaData(res.data)
     })
     .catch(err => {
-      console.log(err)
+      return(err)
     })
   }, [])
   return (
     <div className="App">
       <Image photo={nasaData.url} />
+      <Card nasaData={nasaData} />
     </div>
   );
 }

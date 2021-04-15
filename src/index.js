@@ -5,4 +5,4 @@ import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-// export const NasaUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY'
+// export const nasaUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY'
