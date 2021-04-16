@@ -1,5 +1,5 @@
 export default {
-    primarycolor: 'gray',
+    primaryColor: 'gray',
     secondColor: 'black',
     dangerColor: 'red',
     backgroundColor: 'black'

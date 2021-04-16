@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <Image photo={nasaData.url} />
       <Card nasaData={nasaData} />
+
     </div>
   );
 }
