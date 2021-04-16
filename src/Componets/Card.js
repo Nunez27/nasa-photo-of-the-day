@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from './Image';
 import Body from './Body';
-import { nasaUrl } from '..';
+
 
 const Card = (props) => {
     if(!props.nasaData) {

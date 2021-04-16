@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
 // import {nasaUrl} from './index.js'
-import axios from 'axios'
-import Image from './Componets/Image'
+import axios from 'axios';
+import Image from './Componets/Image';
 import Card from "./Componets/Card";
+
 
 function App() {
   const [nasaData, setNasaData] = useState([])
